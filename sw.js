@@ -3,7 +3,7 @@
 // while the code is changing.
 // The cache name is one per build: the build writes its id here (scripts/prerender.tsx), and on
 // activate every cache with another name is deleted, so old built files do not pile up.
-var CACHE = "morrow-214b3c1c86365375";
+var CACHE = "morrow-01a4270bbb16f474";
 var DEV = self.location.hostname === "localhost" || self.location.hostname === "127.0.0.1";
 
 self.addEventListener("install", function (e) {
